@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/Code365Days/SHIZUKA"><img src="https://img.shields.io/github/stars/Code365Days/SHIZUKA?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Code365Days/SHIZUKA/network/members"> <img src="https://img.shields.io/github/forks/Code365Days/SHIZUKA?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Code365Days/SHIZUKA/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/TeamProBots/ZeixBots"><img src="https://img.shields.io/github/stars/TeamProBots/ZeixBots?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/TeamProBots/ZeixBots/network/members"> <img src="https://img.shields.io/github/forks/TeamProBots/ZeixBots?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/TeamProBots/ZeixBots/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/Code365Days/SHIZUKA/commits?author=yasirakhtar"> <img src="https://img.shields.io/github/last-commit/Code365Days/SHIZUKA?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/TeamProBots/ZeixBots/commits?author=yasirakhtar"> <img src="https://img.shields.io/github/last-commit/TeamProBots/ZeixBots?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Code365Days/SHIZUKA"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/TeamProBots/ZeixBots"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
 
 
 
@@ -30,7 +30,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
 
-<p align="center"><a href="https://app.koyeb.com/deploy?name=Shizuka&type=git&repository=Code365Days%2FSHIZUKA&branch=main&builder=dockerfile"> <img src="https://www.koyeb.com/static/images/deploy/button.svg"></a></p>
+<p align="center"><a href="https://app.koyeb.com/deploy?name=ZeixBots&type=git&repository=TeamProBots%2FZeixBots&branch=main&builder=dockerfile"> <img src="https://www.koyeb.com/static/images/deploy/button.svg"></a></p>
 
 ---
 
@@ -55,7 +55,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/Code365Days/SHIZUKA && cd SHIZUKA
+   git clone https://github.com/TeamProBots/ZeixBots && cd ZeixBots
    ```
 6. **Install Requirements**
    ```bash
