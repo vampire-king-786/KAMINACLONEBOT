@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from PROMUSIC.utils.database import get_assistant
 import asyncio
 from PROMUSIC.misc import SUDOERS
-from PROMUSIC.mongo.afkdb import LOGGERS as OWNERS
+#from PROMUSIC.mongo.afkdb import LOGGERS as OWNERS
 from PROMUSIC.core.userbot import Userbot
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
