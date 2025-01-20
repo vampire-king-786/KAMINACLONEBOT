@@ -27,7 +27,7 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 from PROMUSIC import app
-from PROMUSIC.utils.shukla_ban import admin_filter
+from PROMUSIC.utils.PROBin import admin_filter
 from PROMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from PROMUSIC.utils.database import get_assistant, is_active_chat
 
