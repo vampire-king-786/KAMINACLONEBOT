@@ -139,21 +139,22 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/c61b0474536561616b0a9-88166664659d4173c9.jpg"
+    "START_IMG_URL", "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/c61b0474536561616b0a9-88166664659d4173c9.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/4bff7df05636d1cca7532.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
-STATS_IMG_URL = "https://graph.org/file/13135b2d94228e1a30945-2d74a247e615aeee65.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
-STREAM_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/13c350a33cae1fdc1cd98-917bf94a5b25aeec09.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/d74f9a8ca05636fa9f816-476bf17c89b152e2a7.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/13c350a33cae1fdc1cd98-917bf94a5b25aeec09.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a004494c27776411079e9-d0910b49c83945559d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a004494c27776411079e9-d0910b49c83945559d.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
+STATS_IMG_URL = "https://i.ibb.co/k3cw8XS/IMG-20250103-174108-968.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
