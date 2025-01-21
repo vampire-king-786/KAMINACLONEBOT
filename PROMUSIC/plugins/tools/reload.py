@@ -103,6 +103,8 @@ async def restartbot(client, message: Message, _):
     return await mystic.edit_text(_["reload_5"].format(app.mention))
 
 
+
+
 @app.on_callback_query(filters.regex("close") & ~BANNED_USERS)
 async def close_menu(_, query: CallbackQuery):
     try:
