@@ -40,7 +40,7 @@ C_BOT_COMMANDS = [
             ]
 
 
-@app.on_message(filters.command(["clone"]) & SUDOERS)
+@app.on_message(filters.command(["clone"])
 @language
 async def clone_txt(client, message, _):
     userbot = await get_assistant(message.chat.id)
