@@ -24,7 +24,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "5418725646:AAHbsXqpT9ayNO0L63ShG5tjRcfJv9UMtYY",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -39,7 +39,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @SessionFatherRobot on Telegram.",
-        "value": "",
+        "value": "BQHGZiYAKeeMwrh6FebqzqpNoO5TAx0IHTy_sAHr3JufkhH5WuhiAorSUwhdscgM1NF_eNlj0XQewBu0tWcAzwb1J6KTDWAFmFcleb1zNNe8RRCaI4DXW2Ns8ml5aOHrU2S8r7902yOPZYBzKhlxcczdAMw3t5Lxuag2R6KdDFPUQfiA-BavHZtcfAWupGSptGGEU7MWF9yIRgOVfs3xuX4vqh5iBpdrOMDAWC3rlCFfh4K4oyf-UsBOszr5j8r4SSb5MjMVTW-7QGlqKmD8rEql85G41L1sCauJki04Bj_HxGOLWZ8bN8xAcaWfpzOXszstbeMU9gnh8JlS6PJr2g21uh2DrgAAAAGehZPhAA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -49,7 +49,7 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "",
+        "value": "ubtoldc",
         "required": false
       },
       "LOGGER_ID": {
