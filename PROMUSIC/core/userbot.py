@@ -77,7 +77,7 @@ class Userbot(Client):
         try:
             if config.STRING1:
                 await self.one.stop()
-                if config.STRING2:
+             if config.STRING2:
                 await self.two.stop()
         except:
             pass
