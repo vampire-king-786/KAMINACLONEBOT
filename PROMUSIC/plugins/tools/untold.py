@@ -38,7 +38,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "❮Oᴡɴᴇʀ❯", url=f"https://t.me/untold_coder4"
+                        "❮Oᴡɴᴇʀ❯", url=f"https://t.me/Legend_mickey"
                     )
                 ]
             ]
