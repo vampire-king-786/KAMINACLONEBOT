@@ -6,7 +6,7 @@ from PROMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "untold_coder"
+MUST_JOIN = "THE_INCRICIBLE"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
