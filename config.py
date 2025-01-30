@@ -139,10 +139,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/x11bdc.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/yem4ta.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/4bff7df05636d1cca7532.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/yem4ta.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://i.ibb.co/k3cw8XS/IMG-20250103-174108-968.jpg"
