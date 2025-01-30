@@ -43,8 +43,8 @@ NEXI_VID = [
 ]
 
 YUMI_PICS = [
-"https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg",
-"https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg",
+"https://files.catbox.moe/x11bdc.jpg",
+"https://files.catbox.moe/1kcn66.jpg",
 
 ]
 
