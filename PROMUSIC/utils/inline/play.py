@@ -93,7 +93,6 @@ def stream_markup(_, chat_id):
                 text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
@@ -246,7 +245,6 @@ def stream_markup2(_, chat_id):
                 text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
@@ -294,7 +292,6 @@ def stream_markup_timer2(_, chat_id, played, dur):
                 text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
