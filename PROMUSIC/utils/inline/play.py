@@ -74,7 +74,6 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
