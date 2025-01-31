@@ -69,10 +69,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/untold_coder4"
+                text="˹ ❍ᴡɴᴇꝛ ˼", url=f"https://t.me/Legend_mickey"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
+                text="˹ 𝐒υρροяτ ˼", url=f"https://t.me/The_Incricible"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -236,10 +236,10 @@ def stream_markup2(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/untold_coder4"
+                text="˹ ❍ᴡɴᴇꝛ ˼", url=f"https://t.me/Legend_mickey"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
+                text="˹ 𝐒υρροяτ ˼", url=f"https://t.me/The_incricible"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -519,10 +519,10 @@ def panel_markup_clone(_, vidid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/untold_coder4"
+                text="˹ ❍ᴡɴᴇꝛ ˼", url=f"https://t.me/Legend_mickey"
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀᴛ", url=f"https://t.me/untold_coder"
+                text="˹ 𝐒υρρяτ ˼", url=f"https://t.me/The_Incricible"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
