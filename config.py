@@ -27,7 +27,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "SHEZUXD")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://shezumusic:shezumusic@cluster0.l7fru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-API_KEY = getenv("API_KEY","value")
+API_KEY = getenv("API_KEY",)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
