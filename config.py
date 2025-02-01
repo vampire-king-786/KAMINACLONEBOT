@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID","value"))
-API_HASH = getenv("API_HASH","value")
+API_ID = int(getenv("API_ID","15407204"))
+API_HASH = getenv("API_HASH","393f2a146dbbeebcae243dd003f8f84c")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN","value")
+BOT_TOKEN = getenv("BOT_TOKEN","7076246240:AAGh7KD_gk0p4HuYqtwsTcaHYeZQzouPAMg")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","LEGEND_MICKEY")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "SHEZUXD")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI","value")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://shezumusic:shezumusic@cluster0.l7fru.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 API_KEY = getenv("API_KEY","value")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION","value")
+STRING1 = getenv("STRING_SESSION","BQDrGGQAvsuB16qt33IkSzzMlUnIfwjXeyw3mHnuQirKiNdtR01YYhYGGUAnP1Aa4lp3IY3L-dnTPmNNXY0UmnqXXIajY7l5Y4tFBV9COmbdzb_VH-FGszhXEdx3CXKuCdN3esRQT4y0_4nT7Kktiq-Ir7Kbp4SOphdhwbiB7AspEuJv68lLkRhDU7KJkhTMD9ypo6kzo2dcdphwZos81D3p2YO4TMGXYiQK6mOVVn8V7fIBb976b7hy0xdls0AO9FC0ZObNajvJdc9dO0t9FxF0n3FoSFGXJYI7hxt7JOk40LTr_jAzNAQeOFF640PzimNFJuErjEAtMocG5cZHxNf4ojFYfQAAAAG5p6VBAA")
 STRING2 = getenv("STRING_SESSION2","value")
 BANNED_USERS = filters.user()
 adminlist = {}
