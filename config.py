@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","value"))
+API_HASH = getenv("API_HASH","value")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","value")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","LEGEND_MICKEY")
 # --------------------------------------------------------
@@ -26,8 +26,8 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "SHEZUXD")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-API_KEY = getenv("API_KEY")
+MONGO_DB_URI = getenv("MONGO_DB_URI","value")
+API_KEY = getenv("API_KEY","value")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -46,9 +46,9 @@ OWNER_ID = int(getenv("OWNER_ID", 7520092354))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","value")
 # ----------------------------------------------------------------
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","value")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -58,7 +58,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN","value"
 )  # ----------------------------------------------------------------
 # -------------------------------------------------------------------
 # --------------------------------------------------------------------
@@ -117,8 +117,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION","value")
+STRING2 = getenv("STRING_SESSION2","value")
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
