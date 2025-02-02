@@ -170,10 +170,10 @@ CLONE_HELP = """
 CLONE_HELP_2 = """
 <b><u>ᴄᴏᴍᴍᴀɴᴅs :</b></u>
 
-/clone – Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ @lehar_music_bot.
+/clone – Cʟᴏɴᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ @SHEHZADIXMUSICBOT.
 
 <b><u>Aʟʟ Usᴇʀs :</b></u>
-/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ’ᴠᴇ ᴄʟᴏɴᴇᴅ. [<a href="https://t.me/lehar_music_bot">ʟᴇʜᴀʀ</a>]
+/mybot – Cʜᴇᴄᴋ ᴛʜᴇ ʙᴏᴛs ʏᴏᴜ’ᴠᴇ ᴄʟᴏɴᴇᴅ. [<a href="https://t.me/SHEHZADIXMUSICBOT">ꜱʜᴇʜᴢᴀᴅɪ</a>]
 /botinfo – Oɴʟʏ ғᴏʀ ʙᴏᴛ ᴏᴡɴᴇʀs ᴛᴏ ᴠɪᴇᴡ ʙᴏᴛ ɪɴғᴏ.
 
 <b><u>Pʀᴇᴍɪᴜᴍ Usᴇʀs :</b></u>
