@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mrtosumemon/ROCKY-",
+    "https://github.com/auntyxd12/XXSHEHZADIXX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -144,16 +144,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/6ew59e.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
-STATS_IMG_URL = "https://graph.org/file/13135b2d94228e1a30945-2d74a247e615aeee65.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
-STREAM_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/13c350a33cae1fdc1cd98-917bf94a5b25aeec09.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/d74f9a8ca05636fa9f816-476bf17c89b152e2a7.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/13c350a33cae1fdc1cd98-917bf94a5b25aeec09.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a004494c27776411079e9-d0910b49c83945559d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a004494c27776411079e9-d0910b49c83945559d.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/66b7bb1cf206376dd5ceb-03d047178a9c3418c9.jpg"
+STATS_IMG_URL = "https://graph.org/file/7db127c0ab5acc37bdfa5-30891a03d37366afbe.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+STREAM_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/20864fc056612017d4238-2d1f9b66d2fa9939f0.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
