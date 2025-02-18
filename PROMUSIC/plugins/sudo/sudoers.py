@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from SACHIN_MUSIC import app
+from PROMUSIC import app
 from pyrogram.types import InputMediaVideo
-from SACHIN_MUSIC.misc import SUDOERS
-from SACHIN_MUSIC.utils.database import add_sudo, remove_sudo
-from SACHIN_MUSIC.utils.decorators.language import language
-from SACHIN_MUSIC.utils.extraction import extract_user
-from SACHIN_MUSIC.utils.inline import close_markup
+from PROMUSIC.misc import SUDOERS
+from PROMUSIC.utils.database import add_sudo, remove_sudo
+from PROMUSIC.utils.decorators.language import language
+from PROMUSIC.utils.extraction import extract_user
+from PROMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
