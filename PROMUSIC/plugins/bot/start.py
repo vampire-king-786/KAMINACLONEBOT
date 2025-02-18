@@ -28,8 +28,8 @@ from strings import get_string
 
 
 YUMI_PICS = [
-"https://files.catbox.moe/yem4ta.jpg",
-"https://files.catbox.moe/0v69js.jpg",
+"https://files.catbox.moe/6t7n6u.mp4",
+"https://files.catbox.moe/tc7tjs.mp4",
 
 ]
 
@@ -43,7 +43,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_photo(
+            return await message.reply_video(
                 random.choice(YUMI_PICS),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
