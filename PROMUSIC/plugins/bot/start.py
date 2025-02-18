@@ -7,12 +7,12 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
-from SONALI import app
-from SONALI.misc import _boot_
-from SONALI.plugins.sudo.sudoers import sudoers_list
-from SONALI.utils.database import get_served_chats, get_served_users, get_sudoers
-from SONALI.utils import bot_sys_stats
-from SONALI.utils.database import (
+from PROMUSIC import app
+from PROMUSIC.misc import _boot_
+from PROMUSIC.plugins.sudo.sudoers import sudoers_list
+from PROMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from PROMUSIC.utils import bot_sys_stats
+from PROMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,9 +20,9 @@ from SONALI.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from SONALI.utils.decorators.language import LanguageStart
-from SONALI.utils.formatters import get_readable_time
-from SONALI.utils.inline import help_pannel, private_panel, start_panel
+from PROMUSIC.utils.decorators.language import LanguageStart
+from PROMUSIC.utils.formatters import get_readable_time
+from PROMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
