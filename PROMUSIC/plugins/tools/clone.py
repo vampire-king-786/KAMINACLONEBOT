@@ -36,7 +36,11 @@ C_BOT_COMMANDS = [
                 {"command": "/end", "description": "ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ."},
                 {"command": "/ping", "description": "ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ."},
                 {"command": "/id", "description": "ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ɢʀᴏᴜᴘ ɪᴅ. ɪғ ᴜsᴇᴅ ʙʏ ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ, ɢᴇᴛs ᴛʜᴀᴛ ᴜsᴇʀ's ɪᴅ."}
-
+                {"command": "/tagall", "description": "ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀ ᴛᴏ ᴀᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ."}
+                {"command": "/stoptagall", "description": "ᴛᴀɢ ᴀʟʟ ꜱᴛᴏᴘ."}
+                {"command": "/vctag", "description": "ᴠᴄ ᴛᴀɢ ᴛᴏ ɪɴᴠɪᴛᴇ ᴛᴏ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."}
+                {"command": "/stopvctag", "description": "ꜱᴛᴏᴘ ᴠᴄ ᴛᴀɢ ."}
+                 
             ]
 
 
