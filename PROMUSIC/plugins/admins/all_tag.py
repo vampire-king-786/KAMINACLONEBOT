@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from PROMUSIC import app
-from PROMUSIC.utils.istkhar_ban import admin_filter
+from PROMUSIC.utils.tosu_ban import admin_filter
 
 
 SPAM_CHATS = []
