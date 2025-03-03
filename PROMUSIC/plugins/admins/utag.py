@@ -57,7 +57,7 @@ async def tag_all_users(_, message):
 
 @app.on_message(
     filters.command(
-        ["stoputag", "stopuall", "offutag", "offuall", "utagoff", "ualloff"],
+        ["stopmention", "stopuall", "offmention", "offuall", "utagoff", "ualloff"],
         prefixes=["/", ".", "@", "#"],
     )
     & admin_filter
