@@ -4,15 +4,15 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
-from ISTKHARMUSIC import app
-from ISTKHARMUSIC.utils.ISTKHAR_ban import admin_filter
+from PROMUSIC import app
+from PROMUSIC.utils.ISTKHAR_ban import admin_filter
 
 
 SPAM_CHATS = []
 
 
 @Client.on_message(
-    filters.command(["all", "mention", "mentionall"], prefixes=["/", "@", ".", "#"])
+    filters.command(["all", "mention", "utag"], prefixes=["/", "@", ".", "#"])
     & admin_filter
 )
 async def tag_all_users(client, _, message):
