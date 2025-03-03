@@ -1,72 +1,103 @@
 import asyncio
 import random
 from pyrogram import Client, filters
-from pyrogram.enums import ChatType
 from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from PROMUSIC import app
 from PROMUSIC.utils.ISTKHAR_ban import admin_filter
 
-SPAM_CHATS = {}
+
+SPAM_CHATS = []
 
 
-@app.on_message(
-    filters.command(["mention", "uall"], prefixes=["/", "@", ".", "#"]) & admin_filter
+@Client.on_message(
+    filters.command(["all", "mention", "mentionall"], prefixes=["/", "@", ".", "#"])
+    & admin_filter
 )
-async def tag_all_users(_, message):
-    global SPAM_CHATS
-    chat_id = message.chat.id
-    if len(message.text.split()) == 1:
+async def tag_all_users(client, _, message):
+    if message.chat.id in SPAM_CHATS:
+        return await message.reply_text(
+            "ᴛᴀɢɢɪɴɢ ᴘʀᴏᴄᴇss ɪs ᴀʟʀᴇᴀᴅʏ ʀᴜɴɴɪɴɢ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴛᴏᴘ sᴏ ᴜsᴇ /cancel"
+        )
+
+    replied = message.reply_to_message
+    if len(message.command) < 2 and not replied:
         await message.reply_text(
-            "** ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴛᴀɢ ᴀʟʟ, ʟɪᴋᴇ »** `@utag Hi Friends`"
+            "** ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴛᴀɢ ᴀʟʟ, ʟɪᴋᴇ »** `@all Hi Friends`"
         )
         return
-
-    text = message.text.split(None, 1)[1]
-    if text:
-        await message.reply_text(
-            "**ᴜᴛᴀɢ [ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢ] sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!**\n\n**๏ ᴛᴀɢɢɪɴɢ ᴡɪᴛʜ sʟᴇᴇᴘ ᴏғ 7 sᴇᴄ.**\n\n**➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoputag**"
-        )
-
-    SPAM_CHATS[chat_id] = True
-    f = True
-    while f:
-        if SPAM_CHATS.get(chat_id) == False:
-            await message.reply_text("**ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢɢɪɴɢ sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴏᴘᴘᴇᴅ.**")
-            break
+    if replied:
+        SPAM_CHATS.append(message.chat.id)
         usernum = 0
         usertxt = ""
+        async for m in client.get_chat_members(message.chat.id):
+            if message.chat.id not in SPAM_CHATS:
+                break
+            usernum += 5
+            usertxt += f"\n⊚ [{m.user.first_name}](tg://user?id={m.user.id})\n"
+            if usernum == 1:
+                await replied.reply_text(usertxt)
+                await asyncio.sleep(2)
+                usernum = 0
+                usertxt = ""
         try:
-            async for m in app.get_chat_members(message.chat.id):
-                if m.user.is_bot:
-                    continue
-                usernum += 1
-                usertxt += f"\n⊚ [{m.user.first_name}](tg://user?id={m.user.id})\n"
-                if usernum == 5:
-                    await app.send_message(
-                        message.chat.id,
-                        f"{text}\n{usertxt}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoputag ||",
-                    )
-                    usernum = 0
-                    usertxt = ""
-                    await asyncio.sleep(7)
-        except Exception as e:
-            print(e)
+            SPAM_CHATS.remove(message.chat.id)
+        except Exception:
+            pass
+    else:
+        text = message.text.split(None, 1)[1]
+
+        SPAM_CHATS.append(message.chat.id)
+        usernum = 0
+        usertxt = ""
+        async for m in client.get_chat_members(message.chat.id):
+            if message.chat.id not in SPAM_CHATS:
+                break
+            usernum += 1
+            usertxt += f"\n⊚ [{m.user.first_name}](tg://user?id={m.user.id})\n"
+            if usernum == 5:
+                await client.send_message(
+                    message.chat.id,
+                    f"{text}\n{usertxt}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /cancel ||",
+                )
+                await asyncio.sleep(2)
+                usernum = 0
+                usertxt = ""
+        try:
+            SPAM_CHATS.remove(message.chat.id)
+        except Exception:
+            pass
 
 
-@app.on_message(
+@Client.on_message(
     filters.command(
-        ["stopmention", "stopuall", "offmention", "offuall", "utagoff", "ualloff"],
-        prefixes=["/", ".", "@", "#"],
+        [
+            "stopmention",
+            "offall",
+            "cancel",
+            "allstop",
+            "stopall",
+            "cancelmention",
+            "offmention",
+            "mentionoff",
+            "alloff",
+            "cancelall",
+            "allcancel",
+        ],
+        prefixes=["/", "@", "#"],
     )
     & admin_filter
 )
-async def stop_tagging(_, message):
-    global SPAM_CHATS
+async def cancelcmd(_, message):
     chat_id = message.chat.id
-    if SPAM_CHATS.get(chat_id) == True:
-        SPAM_CHATS[chat_id] = False
-        return await message.reply_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ sᴛᴏᴘᴘɪɴɢ ᴜɴʟɪᴍɪᴛᴇᴅ ᴛᴀɢɢɪɴɢ...**")
+    if chat_id in SPAM_CHATS:
+        try:
+            SPAM_CHATS.remove(chat_id)
+        except Exception:
+            pass
+        return await message.reply_text("**ᴛᴀɢɢɪɴɢ ᴘʀᴏᴄᴇss sᴜᴄᴄᴇssғᴜʟʟʏ sᴛᴏᴘᴘᴇᴅ!**")
+
     else:
-        await message.reply_text("**ᴜᴛᴀɢ ᴘʀᴏᴄᴇss ɪs ɴᴏᴛ ᴀᴄᴛɪᴠᴇ**")
+        await message.reply_text("**ɴᴏ ᴘʀᴏᴄᴇss ᴏɴɢᴏɪɴɢ!**")
+        return
