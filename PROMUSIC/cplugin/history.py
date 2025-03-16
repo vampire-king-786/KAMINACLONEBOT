@@ -4,9 +4,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from ISTKHARMUSIC import app
-from ISTKHARMUSIC.core.userbot import assistants
-from ISTKHARMUSIC.utils.database import get_client
+from PROMUSIC import app
+from PROMUSIC.core.userbot import assistants
+from PROMUSIC.utils.database import get_client
 
 
 @Client.on_message(filters.command(["sg", "History"]))
