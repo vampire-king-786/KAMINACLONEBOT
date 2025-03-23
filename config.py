@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","legend_mickey")
+OWNER_USERNAME = getenv("OWNER_USERNAME","llMR_KAMINAll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "SHEHZADIXMUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Guddamusicbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Sheh")
 # ---------------------------------------------------------
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002046320443))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002564179593))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7520092354))
+OWNER_ID = int(getenv("OWNER_ID", 7972436690))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Incricible")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zoyu_support")
-SOURCE = getenv("SOURCE", "https://t.me/zoyu_Support")
-CHAT = getenv("CHAT", "https://t.me/the_incricible")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/llAYUSHI_UPDATEll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/llAYUSHI_UPDATEll")
+SOURCE = getenv("SOURCE", "https://t.me/llAYUSHI_UPDATEll")
+CHAT = getenv("CHAT", "https://t.me/llAYUSHI_UPDATEll")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
