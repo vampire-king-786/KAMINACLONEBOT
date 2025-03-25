@@ -139,10 +139,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/cm1e7m.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/7ivxbp.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/6ew59e.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/0p54np.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/66b7bb1cf206376dd5ceb-03d047178a9c3418c9.jpg"
 STATS_IMG_URL = "https://graph.org/file/7db127c0ab5acc37bdfa5-30891a03d37366afbe.jpg"
@@ -184,4 +184,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002046320443))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002564179593))
