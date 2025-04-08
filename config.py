@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","llMR_KAMINAll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","lllVAMPIRE_KINGlll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Guddamusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ALYAMUSICROBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Sheh")
 # ---------------------------------------------------------
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002564179593))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002355616069))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7972436690))
+OWNER_ID = int(getenv("OWNER_ID", 7577589716))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/llAYUSHI_UPDATEll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/llAYUSHI_UPDATEll")
-SOURCE = getenv("SOURCE", "https://t.me/llAYUSHI_UPDATEll")
-CHAT = getenv("CHAT", "https://t.me/llAYUSHI_UPDATEll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALYABOTS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ALYABOTS")
+SOURCE = getenv("SOURCE", "https://t.me/ALYABOTS")
+CHAT = getenv("CHAT", "https://t.me/ALYABOTS")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -184,4 +184,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002564179593))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002355616069))
